@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    display: grid;
     min-height: 100dvh;
-    grid-template-rows: auto 1fr auto;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -13,6 +11,40 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+section {
+    height: auto;
+    width: auto;
+    background-color: pink;
+    border-radius: 10px;
+    align-items: center;
+    text-align: justify;
+    border: 2px solid black;
+    border-color: black;
+    margin: 15px;
+    padding: 10px;
+}
+
+.destinos {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.item {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+
+.img {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 15px;
 }
 
 nav ul {
@@ -31,11 +63,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-.main-content {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
 
 .purpose-section,
 .about-section {
